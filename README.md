@@ -76,14 +76,14 @@ docker exec -i -t pandacash /bin/bash
 ## Under the hood
 PandaCash consists of the following components:
 
-### Docker image for ABC bitcoin starting in regtest mode
+### Docker image for BitcoinSV starting in regtest mode
 It starts a compiled version of bitcoin client executed in retest mode that
 
 1. allows developers to start working on blockchain projects without synchronizing the whole block data,
 
 2. creates blocks immediately with new trasactions without waiting times, making the development more responsive.
 
-### Docker image for ABC bitcoin starting in regtest mode
+### Docker image for BitcoinSV starting in regtest mode
 We create initially coinbase transactions and distribute the new coins to the generated addresses for ease of development
 
 ### Creation of addresses
